@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Custom Clearance</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			font-family:"poppins",sans-serif;
+			text-decoration:none;
+		}
+		main{
+			min-height:100vh;
+			background-image: linear-gradient(to right top,#123456,grey);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.glass{
+			background : white;
+			min-height: 80vh;
+			width:60%;
+			background: linear-gradient(to right bottom ,rgba(255,255,255,0.6),rgba(255,255,255,0.8)),url(cbackk.jpg);
+			background-size:cover;
+			background-position:center;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			text-align:center;
+		}
+		
+		.name{
+			text-align:center;
+		}
+		.logo{
+			padding-top:20px;
+			width:350px;
+		}
+		button{
+			margin-top:40px;
+			padding:20px;
+			margin:5px;
+			background:#ff4500;
+			border:none;
+			border-radius: 10px;
+		}
+		.size{
+			padding-top:50px;
+		}
+		a{
+			color:#fff;
+			font-weight:900;
+			font-size:17px;
+		}
+
+		@media screen and (max-width: 768px){
+			main{
+			height:100vh;
+
+			}
+		.glass{
+			width:80%;
+			min-height:80vh;
+		}	
+		.logo{
+			width:250px;
+		}
+		.about h2{
+			font-size:30px;
+			padding-bottom:25px;
+		}
+		.about p{
+			font-size:18px;
+			font-weight: 500;
+			padding-bottom: 30px;
+		}
+		button {
+			margin-top:35px;
+			padding:25px;
+			margin:5px;
+			background:#FF4500;
+			border:none;
+			border-radius: 10px;
+		}
+
+		a{
+			color:#fff;
+			font-size:25px;
+			font-weight: 900;
+		}
+		}
+	</style>
+
+</head>
+<body>
+	<main>
+		<section class="glass">
+			<div class="name">
+				<img src="hind.png" class="logo">
+			</div>
+			<div class="about">
+				<h2>Custom Clearance</h2>
+				<p>We provide our client with a complete range of logistics services</p>
+				<p></p>
+				<div class="size">
+				<button><a href="ccimport.html">IMPORT</a></button>
+				<button><a href="ccexport.html">EXPORT</a></button>
+			</div>
+			</div>
+			<div class="staff">
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>

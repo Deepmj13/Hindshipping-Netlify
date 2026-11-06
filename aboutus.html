@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>About Us</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,300;1,900&family=Quicksand:wght@300;400;700&family=Roboto+Slab:wght@700&display=swap');
+
+		*{
+			margin:0;
+			padding:0;
+			font-family:"Quicksand",sans-serif;
+			text-decoration:none;
+			list-style:none;
+		}
+		main{
+			min-height:100vh;
+			background:url("images/freight.jpeg");
+			background-size:cover;
+			background-position:center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.glass{
+			background : white;
+			min-height: 95vh;
+			width:85%;
+			background:linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.7));
+			background-size:cover;
+			background-position:center;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			text-align:justify;
+			padding: 0 50px;
+		}
+		
+		.name{
+			text-align:center;
+		}
+		.logo{
+			width:350px;
+		}
+		.about{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			gap:30px;
+		}
+		h2{
+			line-height: 2;
+			color:#FF4500;
+			font-size: 30px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		button{
+			padding:13px;
+			margin:5px;
+			cursor:pointer;
+			background:#000;
+			border:none;
+			border-radius: 10px;
+		}
+		button:hover{
+			transform: scale(1.3);
+			transition: .5s ease;
+		}
+		a{
+			color:#FFF;
+		}
+		iframe{
+
+		}
+footer{
+	background:#FFFFFF;
+	width:auto;
+	box-sizing:border-box;
+	font-weight:400;
+
+}
+.footer{
+	padding:10px;
+	margin-bottom:20px;
+}
+.footer-box{
+	padding:10px 30px;
+}
+.footer-row{
+	display:flex;
+	text-align:center;
+	justify-content:space-between;
+	padding:10px;
+}
+.footer-row h3{
+	margin:10px 0;
+}
+.footer-row p{
+	line-height:35px;
+}
+.title-text{
+	margin-top: .5em;
+	text-align:center;
+	padding-bottom:30px;
+}
+.title-text p{
+	margin: auto;
+	font-size:30px;
+	
+	color:red;
+	font-weight: bold;
+	position:relative;
+	z-index: 1;
+	display: inline-block;
+}
+.title-text h3{
+	font-size:30px;
+}
+.social-links{
+	background:#FFFFFF;
+	text-align: center;
+}
+.social-links img{
+	height:40px;
+	margin:10px 10px 0;
+	line-height: 40px;
+	width:40px;
+	cursor:pointer;
+	font-size:20px;
+}
+
+.social-links img:hover{
+	
+	color:#fff;
+	transform:translateY(-7px);
+}
+.location{
+	background:#FFFFFF;
+	text-transform: uppercase;
+	text-align:center;
+	padding:20pxs;
+}
+iframe{
+	padding:20px 0;
+	width:60%;
+	height:250px;
+}
+.rights{
+	background:#AAAAAA;
+	color:#FFF;
+	width:100%;
+	text-align:center;
+	line-height:2;
+	font-weight:lighter;
+	font-size:10px;
+
+}
+.btn{
+	text-align: center;
+}
+		@media screen and (max-width: 768px){
+			main{
+			height:110vh;
+			background:linear-gradient(rgba(0,0,0,0.5)),url("images/freight.jpeg");
+			background-size: cover;
+
+			}
+		.glass{
+			width:80%;
+			min-height:100vh;
+		}	
+		.logo{
+			width:250px;
+		}
+		.about h2{
+			font-size:30px;
+			padding-bottom:0;
+		}
+		.about p{
+			font-size:18px;
+			font-weight: 500;
+		}
+		button a{
+			margin:20px;
+			text-transform:uppercase;
+			padding:10px;
+			color:#FFF;
+			margin:5px;
+			background:#000;
+			border:none;
+			border-radius: 10px;
+		}
+		iframe{
+		}
+		footer{
+	width:auto;
+	box-sizing:border-box;
+	font-weight:400;
+
+}
+.footer-box{
+	padding:10px;
+	margin-bottom:20px;
+}
+.footer-row{
+	display:flex;
+	text-align:center;
+	flex-direction:column;
+	justify-content:space-between;
+	padding:10px;
+}
+.footer-row h3{
+	margin:10px 0;
+}
+.footer-row p{
+	line-height:35px;
+}
+.title-text{
+	text-align:center;
+	padding-bottom:30px;
+
+}
+.title-text p{
+	margin: auto;
+	font-size:30px;
+	
+	color:red;
+	font-weight: bold;
+	position:relative;
+	z-index: 1;
+	display: inline-block;
+}
+.title-text h3{
+	font-size:30px;
+}
+.social-links{
+	text-align: center;
+}
+.social-links img{
+	height:40px;
+	margin:30px 10px;
+	line-height: 50px;
+	width:40px;
+	cursor:pointer;
+	font-size:20px;
+}
+
+.social-links img:hover{
+	
+	color:#fff;
+	transform:translateY(-7px);
+}
+}
+	</style>
+
+</head>
+<body>
+	<main>
+		<section class="glass">
+			<div class="name">
+				<img src="images/hind.png" class="logo">
+			</div>
+			<div class="about">
+				<h2>About Us</h2>
+				<p>We provide our client with a complete range of logistics services like... Air,Sea FCL/LCL ,Breakbulk,Project-cargo,Fumigation,Insurance
+				Also we have 22 years expirenced Staff in this field.We will Serve our experience to Client for More reliability</p>
+				<div class="btn">
+				<button><a href="tel:+918390022000">Contact us</a></button>
+				<button><a href="mailto:info@hindshipping.in">MAIL US</a></button>
+			</div>
+			</div>
+			<div class="vision">
+				<h2>Our Vision</h2>
+				<p>Our Vision is to devlopment a Faigthfull relation between client.As one of the Best Freight Forwarders in India, our goal is to provide high-quality Logistic Services. That is why we concentrate on international Sea Freight, AirFreight Business, Customs Clearance, and Warehouse availability services into a large-sized modern Logistics enterprise. Besides this, we primarily offer Warehouse Facilities in different regions in INDIA</p>
+			</div>
+		</section>
+	</main>
+		<footer id="footer">
+	<div class="title-text">
+		<p>Contact</p>
+		<h3> Visit Us </h3>
+	</div>
+	<div class="footer-row">
+	<div class="footer-box">
+		<h1>Opening Hours</h1>
+		<p>Monday to Friday - 10 AM - 5:30 PM</p>
+		<p>Saturday - 10 AM - 2:30 PM</p>
+		<p>Sunday -Closed</p>
+		<p>No.711</p>
+		<p>Loha Bhavan</p>		
+	</div>
+	<div class="footer-box">
+		<h1>Get In Touch</h1>
+		<p>711, Lobhabhavan,Opp.old high court.Income Tex circle<br>Ashram Road,Navrangpura,Ahmedabad-380009</p>
+		<p>info@hindshipping.in</p>
+		<p>contact no. - 079-49170167</p>
+		<p>contact no. - +918390022000</p>
+	</div>	
+	</footer>
+	<div class="location">
+		<h3>Our Loaction</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.598631162004!2d72.56589081495724!3d23.038504821513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8594c420471f%3A0xda7bbeecf541421c!2sHIND%20shipping%20and%20logistics!5e0!3m2!1sen!2sin!4v1679660828991!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<div class="social-links">
+		<a href="https://www.instagram.com/hind_shipping?igshid=NTdlMDg3MTY="><img src="images/insta.png"></a>
+		<a href="https://www.facebook.com/profile.php?id=100089464590789"><img src="images/face.png"></a>
+		<a href="https://in.pinterest.com/hindshipping/"><img src="images/pin.png"></a>
+		<a href="https://twitter.com/HindShipping"><img src="images/twi.png"></a>
+	</div>
+	<div class="rights">
+		<p>&copyCOPYRIGHTS RESERVEB BY HIND SHIPPING AND LOGISTICS</p>
+	</div>
+</body>
+</html>

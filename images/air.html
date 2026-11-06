@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Air-Feight</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			font-family:"poppins",sans-serif;
+			text-decoration:none;
+					}
+		main{
+			min-height:100vh;
+			background-image: linear-gradient(to right top,#123456,grey);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.glass{
+			background : white;
+			min-height: 80vh;
+			width:60%;
+			background: linear-gradient(to right bottom ,rgba(255,255,255,0.5),rgba(255,255,255,0.3)),url(background.jpg);
+			background-size:right;
+
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			text-align:center;
+		}
+		
+		.name{
+			text-align:center;
+		}
+		.logo{
+			padding-top:20px;
+			width:350px;
+		}
+		button{
+			margin:20px;
+			padding:10px;
+			background:#FF4500;
+			border:none;
+			border-radius: 10px;
+		}
+		a{
+			color:#FFF;
+		}
+		button:hover{
+			transform: scale(1.5);
+			transition: .5s ease;
+		}
+
+		@media screen and (max-width: 768px){
+			main{
+			height:100vh;
+
+			}
+		.glass{
+			width:80%;
+			min-height:80vh;
+		}	
+		.logo{
+			width:250px;
+		}
+		.about h2{
+			font-size:30px;
+			padding-bottom:25px;
+		}
+		.about p{
+			font-size:18px;
+			font-weight: 500;
+		}
+		button {
+			margin:20px;
+			padding:10px;
+			background:#FF4500;
+			border:none;
+			border-radius: 10px;
+		}
+		a{
+			color:#fff;
+		}
+		}
+	</style>
+
+</head>
+<body>
+	<main>
+		<section class="glass">
+			<div class="name">
+				<img src="hind.png" class="logo">
+			</div>
+			<div class="about">
+				<h2>Air-Freight</h2>
+				<p>We provide our client with a complete range of logistics services like... Air-Freight</p>
+				<p>Hind Shipping and logistics provide you a service of a cargo to anywhare in world transportation,<br>We understand as a customer your priority is receiving your package as quickly and safely as possible, air-freight is the solution for you.<br> Our highly experience staff prioritize the same needs as the customer giving you the best hassle freeexperience you will possibly find.<br> best rates for you so not only will it arrive quickly but you can guarantee that we will provide it at the lowest cost we can possibly get you</p>
+				<button><a href="tel:+918390022000">CALL NOW</a></button>
+				<button><a href="mailto:info@hindshipping.in">Send Query</a></button>
+			</div>
+			<div class="staff">
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Sea-Feight</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			font-family:"poppins",sans-serif;
+			text-decoration:none;
+					}
+		main{
+			min-height:100vh;
+			background-image: linear-gradient(to right top,#123456,grey);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+		.glass{
+			background : white;
+			min-height: 80vh;
+			width:60%;
+			background: linear-gradient(to right bottom ,rgba(255,255,255,0.3),rgba(255,255,255,0.6)),url(seaback.jpg);
+			background-size:cover;
+			background-position:center;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			text-align:center;
+		}
+		
+		.name{
+			
+			text-align:center;
+		}
+		.logo{
+			padding-top:20px;
+			width:350px;
+		}
+		button{
+			margin:20px;
+			padding:15px;
+			cursor:pointer;
+			background:#FF4500;
+			border:none;
+			text-transform: uppercase;
+			border-radius: 10px;
+		}
+		button:hover{
+			transform:scale(1.5);
+			transition:.5s ease;
+		}
+		a{
+			color:#FFF;
+		}
+
+		@media screen and (max-width: 768px){
+			main{
+			height:100vh;
+
+			}
+		.glass{
+			width:80%;
+			min-height:80vh;
+		}	
+		.logo{
+			width:250px;
+		}
+		.about h2{
+			font-size:30px;
+			padding-bottom:25px;
+		}
+		.about p{
+			font-size:18px;
+			font-weight: 500;
+		}
+		button {
+			margin:20px;
+			padding:10px;
+			background:#FF4500;
+			border:none;
+			border-radius: 10px;
+		}
+		a{
+			color:#fff;
+		}
+		}
+	</style>
+
+</head>
+<body>
+	<main>
+		<section class="glass">
+			<div class="name">
+				<img src="hind.png" class="logo">
+			</div>
+			<div class="about">
+				<h2>Sea-Freight</h2>
+				<p>We provide our client with a complete range of logistics services like... Sea-Freight</p>
+				<h5>FCL-FULL CONTAINER LOAD</h5>
+				<h5>LCL-LESS THAN CONTAINER LOAD</h5>
+				<p>From Full Container Loads (FCL) to Less than Container Loads (LCL), on all major global routes, with guaranteed transit times. best rates for you so not only will it arrive quickly but you can guarantee that we will provide it at the lowest cost we can possibly get you.<br>Don't worry your cargo is in safe hands</p>
+				<button><a href="tel:+918390022000">CALL NOW</a></button>
+				<button><a href="mailto:info@hindshipping.in">Send Query</a></button>
+			</div>
+			<div class="staff">
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
